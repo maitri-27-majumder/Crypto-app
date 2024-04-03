@@ -1,0 +1,27 @@
+.topbar__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo-container {
+  display: none;
+  .nav__logo {
+    font-size: 22px;
+    color: #fff;
+    border-radius: 12px;
+    background-color: #6b8b16;
+    font-weight: 700;
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topbar__container {
+    flex-direction: column-reverse;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  .nav__logo-container {
+    display: flex;
+  }
+}

@@ -1,0 +1,19 @@
+.segment__crypto-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  .segment__crypto-name {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .segment__crypto-cards {
+    display: flex;
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .segment__crypto-cards {
+    flex-direction: column;
+  }
+}
